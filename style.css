@@ -61,6 +61,7 @@ button {
 
 .top-text {
   max-width: 400px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -72,6 +73,38 @@ button {
 
 .top-image img {
   height: 260px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.items {
+  display: flex;
+  gap: 48px;
+  padding: 64px 0;
+}
+
+.item {
+  width: 180px;
+  font-size: 18px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.item img {
+  width: 180px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
 }
 
 .footer {
