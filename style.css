@@ -73,3 +73,13 @@ button {
 .top-image img {
   height: 260px;
 }
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}
