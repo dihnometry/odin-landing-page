@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto, "Segoe UI", Oxygen, Ubuntu, Cantarell, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  border: 0px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 8px 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 16px 200px;
+}
+
+.right-links {
+  display: flex;
+  gap: 24px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.top {
+  background-color: #1f2937;
+  display: flex;
+  padding: 18px 200px;
+  height: 450px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-text {
+  max-width: 400px;
+  color: #e5e7eb;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.top-image img {
+  height: 260px;
+}
